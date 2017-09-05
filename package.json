@@ -1,0 +1,68 @@
+{
+	"name": "smarty",
+	"displayName": "Smarty",
+	"description": "Smarty Syntax Highlighting for VS Code",
+	"categories": [
+		"Languages",
+		"Snippets"
+	],
+	"keywords": [
+		"smarty",
+		"php",
+		"syntax",
+		"snippets",
+		"php smarty",
+		"tpl"
+	],
+	"version": "1.0.0",
+	"author": {
+		"name": "Victor Rosu",
+		"url": "https://github.com/mrred85"
+	},
+	"publisher": "mrred85",
+	"maintainers": [
+		"Victor Rosu (mrred85)"
+	],
+	"engines": {
+		"vscode": "^1.13.0"
+	},
+	"icon": "icon.png",
+	"homepage": "https://github.com/mrred85/vscode-smarty",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mrred85/vscode-smarty"
+	},
+	"bugs": {
+		"url": "https://github.com/mrred85/vscode-smarty/issues"
+	},
+	"contributes": {
+		"languages": [
+			{
+				"id": "smarty",
+				"aliases": [
+					"Smarty",
+					"smarty"
+				],
+				"extensions": [
+					".tpl",
+					".smarty",
+					".html.smarty"
+				],
+				"configuration": "./smarty.configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "smarty",
+				"scopeName": "text.html.smarty",
+				"path": "./syntaxes/smarty.tmLanguage.json"
+			}
+		],
+		"snippets": [
+			{
+				"language": "smarty",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	}
+}
