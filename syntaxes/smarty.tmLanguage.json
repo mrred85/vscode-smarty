@@ -104,7 +104,7 @@
                     "name": "constant.language.smarty"
                 },
                 {
-                    "match": "\\b(if|else|elseif|for|forelse|foreach|foreachelse|section|switch|case|break|default)\\b",
+                    "match": "\\b(if|else|elseif|for|forelse|foreach|foreachelse|section|switch|case|break|default|function)\\b",
                     "name": "keyword.control.smarty"
                 },
                 {
